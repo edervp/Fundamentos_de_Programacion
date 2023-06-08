@@ -1,5 +1,5 @@
 # Fundamentos_de_Programacion
-
+```
 let objeto= {
     valor1: 1,
     valor2:2,
@@ -15,7 +15,7 @@ creada, en esta caso no existe, por lo tanto no pude acceder a ella
 console.log(objeto[valor1]);
 //Accede al valor del atributo "valor1" de forma correcta
 console.log(objeto["valor1"]);
-
+```
 ## JSON: Notación de Objetos de JavaScript
 
 El JSON (JavaScript Object Notation) es un formato ligero de intercambio de datos ampliamente utilizado en el desarrollo de aplicaciones web y móviles. Se basa en una estructura de pares clave-valor que resulta fácilmente legible tanto para los humanos como para las máquinas. A continuación, exploraremos en detalle qué es JSON, su sintaxis y cómo se utiliza.
