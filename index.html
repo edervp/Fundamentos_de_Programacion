@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+<h3>Ingresa elementos separados por comas para así crear un arreglo</h3>
+<!-- Create a text field -->
+<input type="text" id="myTextFieldElementos" placeholder="Arreglo">
+<!-- Create a button -->
+<button onclick="crearArreglo()">Crear arreglo</button>
+<p id="my_P_Arreglo"></p>
+<h3>Ingresa el elemento y su posicion(Indice) donde se insertará</h3>
+<input type="text" id="textFieldElementoAñadido" placeholder="Elemento">
+<input type="text" id="idIndex" placeholder="Indice">
+<button onclick="insertarElementoArreglo()">Añadir elemento</button>
+<p id="arregloFinal"> </p>
+<br>
+<p>
+    Si el indice es mayor al tamaño del arreglo 
+    se agrega el elemento al Final y si es menor al inicio.
+
+</p>
+
+<script src="InsertarElemento.js"></script>
+</body>
+</html>
+
